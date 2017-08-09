@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #eee;
+}
+.wrap {
+	margin: 0px auto;
+	width: 1024px;
+	height: 768px;
+	background: url(../img/1_100804231616_12.jpg);
+	position: relative;
+	overflow: hidden;
+}
+ul {
+	list-style: none;
+	width: 760px;
+	overflow: hidden;
+	margin: 300px 0 0 170px;
+}
+ul li {
+	width: 150px;
+	height: 87px;
+	margin: 20px;
+	float: left;
+	position: relative;
+}
+ul li img:nth-child(2){
+	position: absolute;
+	left: -43px;
+	top: 45px;
+	display: none;
+}
+.container {
+	width: 450px;
+	height: 46px;
+	position: absolute;
+	left: 50%;
+	margin-left: -225px;
+	bottom: 10px;
+	background-color: #955624;
+	border-radius: 5px;
+}
+.operate {
+	/*font-size: 0;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 20px;
+
+}
+.operate button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.operate button {
+	border: 0;
+	font-family: "Microsoft yahei";
+	color: #FEE16C;
+	font-weight: 800;
+	text-stroke: 1px #472E15;
+	-webkit-text-stroke: 1px #472E15; 
+	-moz-text-stroke: 1px #472E15;
+	-o-text-stroke: 1px #472E15;
+	/*text-shadow: 2px 2px #472E15;*/
+	font-size: 17px;
+	width: 61px;
+	height: 46px;
+	line-height: 86px;
+	outline: none;
+}
+.operate button:nth-child(1){
+	background: url(../img/bo.png) no-repeat;
+	background-size: cover;
+}
+.operate button:nth-child(2){
+	background: url(../img/shoutao.png) no-repeat;
+	background-size: cover;
+}
+.operate button:nth-child(3){
+	background: url(../img/chanzi.png) no-repeat;
+	background-size: cover;
+}
+.operate button:nth-child(4){
+	background: url(../img/quanshou.png) no-repeat;
+	background-size: cover;
+}
+.util {
+	width: 450px;
+	height: 46px;
+	margin-left: 288px;
+}
+.util img {
+	display: none;
+	position: absolute;
+}
